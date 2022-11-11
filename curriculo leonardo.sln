@@ -1,25 +1,49 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.916
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "curriculo leonardo", "curriculo leonardo\curriculo leonardo.csproj", "{7BA23569-E22F-4E03-BC60-224B4819FF24}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7BA23569-E22F-4E03-BC60-224B4819FF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BA23569-E22F-4E03-BC60-224B4819FF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BA23569-E22F-4E03-BC60-224B4819FF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BA23569-E22F-4E03-BC60-224B4819FF24}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {41C7EED9-F521-4684-9A5A-B8503BA03C52}
-	EndGlobalSection
-EndGlobal
+ string nome;
+            int idade;
+            int telefone;
+            int rg;
+            int nascimento;
+            string genero;
+            string endereço;
+            string experiencia;
+            string formação;
+            string carta;
+
+
+
+
+            Console.WriteLine("digite seu nome");
+        nome: Console.ReadLine();
+
+            Console.WriteLine("digite sua idade");
+        idade: Console.ReadLine();
+
+            Console.WriteLine("digite seu telefone");
+        telefone: Console.ReadLine();
+
+            Console.WriteLine("digite seu rg");
+        rg: Console.ReadLine();
+
+            Console.WriteLine("digite seu nascimento");
+        nascimento: Console.ReadLine();
+
+            Console.WriteLine("digite seu genero");
+        genero: Console.ReadLine();
+
+            Console.WriteLine("digite seu endereço");
+        endereço: Console.ReadLine();
+
+            Console.WriteLine("digite sua experiencia");
+        experiencia: Console.ReadLine();
+
+            Console.WriteLine("digite sua formação");
+        formação: Console.ReadLine();
+
+            Console.WriteLine("digite sua carta");
+        carta: Console.ReadLine();
+
+
+
+
+            Console.ReadKey();
